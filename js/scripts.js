@@ -32,5 +32,31 @@ $(document).ready(function() {
   $(".cssBtn").click(function(event) {
     event.preventDefault();
     $("#cssInfo").show();
+    $("#javaInfo").hide();
+    $("#cInfo").hide();
+    $("#blog").hide();
   });
+  $(".javaBtn").click(function(event) {
+    event.preventDefault();
+    $("#javaInfo").show();
+    $("#cssInfo").hide();
+    $("#cInfo").hide();
+    $("#blog").hide();
+
+  });
+  $(".cBtn").click(function(event) {
+    event.preventDefault();
+    $("#cInfo").show();
+    $("#javaInfo").hide();
+    $("#cssInfo").hide();
+    $("#blog").hide();
+  });
+  $(".blogBtn").click(function(event) {
+    event.preventDefault();
+    $("#blog").show();
+    $("#javaInfo").hide();
+    $("#cInfo").hide();
+    $("#cssInfo").hide();
+  });
+
 });
