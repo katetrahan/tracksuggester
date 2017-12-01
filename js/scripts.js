@@ -62,5 +62,11 @@ $(document).ready(function() {
     $("#cInfo").hide();
     $("#cssInfo").hide();
   });
-
+  $(".active").click(function(event) {
+    event.preventDefault();
+    $("#blog").hide();
+    $("#javaInfo").hide();
+    $("#cInfo").hide();
+    $("#cssInfo").hide();
+  });
 });

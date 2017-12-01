@@ -30,18 +30,25 @@ h3 {
 
 .jumbotron {
   padding: 4px;
+  background-color: #629785;
 }
 
-.row {
+.top {
   padding: 10px;
   margin: 10px;
+  background-color: #bdded3;
 }
 
 body {
   font-size: 14pt;
+  background-color: #f1f8f6
 }
 
 ul {
+  list-style: none;
+}
+
+ol {
   list-style: none;
 }
 
@@ -63,4 +70,9 @@ ul {
 
 .cResult{
   background-color: #bdded3;
+}
+
+img {
+  height : 30%;
+  width: 100%;
 }
