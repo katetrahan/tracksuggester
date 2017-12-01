@@ -40,3 +40,27 @@ h3 {
 body {
   font-size: 14pt;
 }
+
+ul {
+  list-style: none;
+}
+
+.wellTitle {
+  text-align: center;
+}
+
+.cssResult {
+  background-color: #e4f1ed;
+}
+
+.javaResult {
+  background-color: #d7ebe4;
+}
+
+.jorcResult {
+  background-color: #cae4db;
+}
+
+.cResult{
+  background-color: #bdded3;
+}

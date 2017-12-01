@@ -11,15 +11,19 @@ $(document).ready(function() {
     console.log(trackerAdd);
 
     if (trackerAdd >= 50 ) {
+        $("#yourTrack").addClass("cssResult");
         $("#suggest").text("CSS");
     }
     else if (trackerAdd <= 6) {
+        $("#yourTrack").addClass("javaResult");
         $("#suggest").text("Java");
     }
     else if (trackerAdd >=7 && trackerAdd <=14) {
+        $("#yourTrack").addClass("jorcResult");
         $("#suggest").text("Java or C#");
     }
     else if (trackerAdd =22 ) {
+        $("#yourTrack").addClass("cResult");
         $("#suggest").text("C#");
     }
     else {
