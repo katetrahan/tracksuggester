@@ -4,7 +4,7 @@ $(document).ready(function() {
     var endPreference = parseInt($("#development").val());
     var environmentPreference = parseInt($("input:radio[name=operator]:checked").val());
     var goalPreference = parseInt($("input:radio[name=operator1]:checked").val());
-    var trackerAdd = endPreference+ environmentPreference + goalPreference;
+    var trackerAdd = endPreference + environmentPreference + goalPreference;
     console.log(endPreference);
     console.log(environmentPreference);
     console.log(goalPreference);
