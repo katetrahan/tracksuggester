@@ -7,9 +7,16 @@
     <title>Track Suggester</title>
   </head>
   <body>
+    <ul class="nav nav-tabs" id="topNav">
+      <li role="presentation" class="active"><a href="#">Quiz</a></li>
+      <li role="presentation" class="cssBtn"><a href="#">CSS</a></li>
+      <li role="presentation" class="javaBtn"><a href="#">Java</a></li>
+      <li role="presentation" class="javaBtn"><a href="#">C#</a></li>
+      <li role="presentation" class= "blogBtn"><a href="#">Blog</a></li>
+    </ul>
     <div class="container">
       <h1>Track Suggester</h1>
-      <p>Looking to program or have always wanted to be a developer but not sure where to start?</p>
+      <h3>Looking to program or have always wanted to be a developer but not sure where to start? Take this quix to find out which language is best for you!</h3>
       <form id="track">
         <div class="form-group">
           <label for="failure">I view my failures as:</label>
@@ -74,9 +81,12 @@
           </div>
         <button type="submit" class="btn">Find your track!</button>
       </form>
-      <div id="yourtrack">
+      <div id="yourTrack">
         <p>Your track is <span id="suggest"></span>! Click here <a href="http://www.epicodus.com/">Epicodus</a> to view more about Epicodus</p>
       </div>
+      <div id="cssInfo">
+        <p>Here is some info about CSS</p>
+    </div>
     </div>
   </body>
 </html>

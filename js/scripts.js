@@ -25,7 +25,12 @@ $(document).ready(function() {
     else {
       console.log("ended here");
     }
-    $("#yourtrack").show();
+    $("#yourTrack").show();
 
+
+  });
+  $(".cssBtn").click(function(event) {
+    event.preventDefault();
+    $("#cssInfo").show();
   });
 });

@@ -1,3 +1,15 @@
-#yourtrack {
+#yourTrack {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#cssInfo {
   display: none;
 }
