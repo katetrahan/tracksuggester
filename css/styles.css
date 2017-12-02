@@ -14,18 +14,23 @@ h3 {
 
 #cssInfo {
   display: none;
+  margin: 15px;
 }
 
 #javaInfo {
   display: none;
+  margin: 15px;
+
 }
 
 #cInfo {
   display: none;
+  margin: 15px;
 }
 
 #blog {
   display: none;
+  margin: 15px;
 }
 
 .jumbotron {
@@ -76,4 +81,8 @@ ol {
 img {
   height : 30%;
   width: 100%;
+}
+
+#track  {
+  background-color: #f1f8f6;
 }
