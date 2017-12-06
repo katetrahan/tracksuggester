@@ -6,10 +6,6 @@ $(document).ready(function() {
     var goalPreference = parseInt($("input:radio[name=operator1]:checked").val());
     var trackerAdd = endPreference + environmentPreference + goalPreference;
     var fullName = $("input#nameUser").val();
-    console.log(endPreference);
-    console.log(environmentPreference);
-    console.log(goalPreference);
-    console.log(trackerAdd);
 
     if (trackerAdd >= 50 ) {
         $("#yourTrack").addClass("cssResult");
@@ -28,7 +24,6 @@ $(document).ready(function() {
         $("#suggest").text("C#");
     }
     else {
-      console.log("ended here");
     }
 
     $("#yourTrack").show();
@@ -72,4 +67,5 @@ $(document).ready(function() {
     $("#cInfo").hide();
     $("#cssInfo").hide();
   });
+  $("#yourTrack").hide();
 });
